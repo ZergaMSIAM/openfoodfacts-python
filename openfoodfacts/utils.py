@@ -22,7 +22,7 @@ ENTITY_MAP = {
 
 
 def login_into_OFF():
-    username = raw_input("Username:")
+    username = input("Username:")
     password = getpass.getpass("Password:")
     return login(username, password)
 
